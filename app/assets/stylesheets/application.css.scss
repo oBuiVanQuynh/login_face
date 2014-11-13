@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+::selection{
+  background: red;
+};
+
+.carousel-inner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

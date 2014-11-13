@@ -30,12 +30,17 @@ gem 'spring',        group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'capistrano', '2.15.5'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'omniauth-facebook'
 gem 'pry-rails'
+gem 'net-ssh', '2.7.0'
+gem "koala"
+gem 'faraday', '0.8.7'
+
+gem 'bootstrap-sass'
